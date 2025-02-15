@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #fffbe6;
+    padding: 2rem;
+    text-align: center;
+    width: 30rem;
+}
+
+/* Título */
+h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Campo de entrada */
+#taskInput {
+    padding: 0.8rem;
+    width: 15rem;
+    border: 0.1rem #ccc;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Botón de agregar tarea */
+#addTaskBtn {
+    background-color: #005000;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Lista de tareas */
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+/* Elemento de tarea */
+#taskList li {
+    background: #fff;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+/* Botón de eliminar */
+.deleteBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
